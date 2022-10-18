@@ -5,9 +5,12 @@ import Header from './Header/Header';
 
 const Main = props => {
     return (
-        <div className='App'>
+        <div>
             <Header />
-            <BurgerBuilder />
+            <div className='container'>
+                <BurgerBuilder />
+            </div>
+
         </div>
     )
 }
